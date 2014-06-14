@@ -1,0 +1,8 @@
+x=int(input())
+while x!=0:
+    pro=1
+    n=int(input())
+    while n!=0:
+        pro=pro*n
+        n=n-1
+    print pro
